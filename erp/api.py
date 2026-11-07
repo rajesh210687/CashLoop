@@ -49,12 +49,14 @@ __all__ = [
 class Customer:
     customer_code: str
     legal_name: str
-    gstin: str
+    gstin: str | None  # None for overseas customers
     city: str
-    state: str
+    state: str  # 2-letter code, e.g. "KA"
     payment_terms_days: int
     credit_limit: Decimal
     is_active: bool
+    currency: str
+    tier: str
 
 
 @dataclass(frozen=True)
@@ -81,6 +83,7 @@ class Price:
     unit_price: Decimal | None
     source: Literal["contract", "none"]
     valid_from: date | None
+    currency: str | None  # the contract's currency; None when there is no contract
     item_is_active: bool
 
 
@@ -179,7 +182,7 @@ def _connection() -> Iterator[psycopg.Connection]:
 
 
 _CUSTOMER_COLS = ("customer_code, legal_name, gstin, city, state, "
-                  "payment_terms_days, credit_limit, is_active")
+                  "payment_terms_days, credit_limit, is_active, currency, tier")
 
 
 def _customer(row: dict) -> Customer:
@@ -282,7 +285,7 @@ def get_price(customer_code: str, sku: str) -> Price:
     with _connection() as conn, conn.cursor() as cur:
         customer = _fetch_customer(cur, customer_code.strip())
         item = _fetch_item(cur, sku.strip())
-        cur.execute("SELECT unit_price, valid_from FROM price_lists "
+        cur.execute("SELECT unit_price, valid_from, currency FROM price_lists "
                     "WHERE customer_id = %s AND item_id = %s", (customer["id"], item["id"]))
         row = cur.fetchone()
     return Price(
@@ -290,6 +293,7 @@ def get_price(customer_code: str, sku: str) -> Price:
         unit_price=row["unit_price"] if row else None,
         source="contract" if row else "none",
         valid_from=row["valid_from"] if row else None,
+        currency=row["currency"] if row else None,
         item_is_active=item["is_active"],
     )
 

@@ -26,5 +26,6 @@ purchase orders and invoices, built up one production-grade component at a time.
 `tests/test_no_raw_sql.py` fails if SQL or a DB driver appears outside `erp/`.
 
     pip install -r requirements.txt
-    python erp/seed.py        # build the mock ERP (needs Postgres running)
+    python erp/seed.py        # build the mock ERP (needs Postgres running); loads the golden-set
+                              # reference CSVs as-is, then generates the rest around them
     pytest                    # tests roll back, so they leave the database untouched

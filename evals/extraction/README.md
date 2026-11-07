@@ -15,7 +15,7 @@ evals/build_golden_set.py                    regenerates everything (determinist
 
 **Mix:** 3 easy, 9 medium, 13 hard. 23 POs across 25 emails (3 non-POs, 1 email with two POs), 9 planted issues.
 
-**Reference data** covers only what these emails touch (21 customers, 68 SKUs). In Step 0, make sure your full ERP seed contains these rows unchanged, or the price checks won't line up. Easiest route: load the reference CSVs first, then generate the rest of the seed around them.
+**Reference data** covers only what these emails touch (22 customers, 68 SKUs, 1,365 prices). `erp/seed.py` loads these CSVs as-is and generates the rest of the ERP around them, and `tests/test_reference_integrity.py` fails if the ERP ever disagrees with them or with the gold resolutions. Never let the seed regenerate these rows.
 
 **Self-check:** the generator re-derives every expected issue with reference business rules and fails if they don't match the planted ones. Run `python evals/build_golden_set.py` (from the repo root) after any edit.
 
