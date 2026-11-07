@@ -718,9 +718,23 @@ for e in EMAILS:
             assert ln["sku_as_written"] in e["text"], (e["id"], ln["sku_as_written"])
 
 # ---------------------------------------------------------------- write outputs
-for d in (OUT_EMAILS, OUT_GOLD, OUT_REF):
-    if d.exists(): shutil.rmtree(d)
-    d.mkdir(parents=True)
+# Only the generated emails (the ids in EMAILS) are rewritten. Anything else in
+# corpus/po_emails and gold/ (hand-written po_026+) and its manifest rows are kept.
+# reference/ is entirely derived, so it is rebuilt from scratch.
+GENERATED_IDS = {e["id"] for e in EMAILS}
+for d in (OUT_EMAILS, OUT_GOLD):
+    d.mkdir(parents=True, exist_ok=True)
+    for old in d.glob("po_*"):
+        if old.stem in GENERATED_IDS:
+            old.unlink()
+if OUT_REF.exists(): shutil.rmtree(OUT_REF)
+OUT_REF.mkdir(parents=True)
+
+MANIFEST_PATH = ROOT / "evals" / "extraction" / "manifest.csv"
+kept_manifest_rows = []
+if MANIFEST_PATH.exists():
+    with open(MANIFEST_PATH, newline="") as f:
+        kept_manifest_rows = [r for r in csv.DictReader(f) if r["email_id"] not in GENERATED_IDS]
 
 used_customers, used_skus = set(), set()
 manifest = []
@@ -747,8 +761,9 @@ for e in EMAILS:
                          customer_ids=";".join(str(p["_cid"]) for p in e["pos"]), tags=";".join(e["tags"]),
                          expected_issues=";".join(x["code"] for x in e["issues"])))
 
-with open(ROOT / "evals" / "extraction" / "manifest.csv", "w", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=list(manifest[0])); w.writeheader(); w.writerows(manifest)
+with open(MANIFEST_PATH, "w", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=list(manifest[0])); w.writeheader()
+    w.writerows(sorted(manifest + kept_manifest_rows, key=lambda r: r["email_id"]))
 
 # reference data: only what the golden set touches (Step 0 builds the full ERP seed)
 with open(OUT_REF / "customers.csv", "w", newline="") as f:
