@@ -1,3 +1,4 @@
 faker
 psycopg[binary]
 python-dotenv
+pytest
