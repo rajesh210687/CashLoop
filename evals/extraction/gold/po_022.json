@@ -1,0 +1,15 @@
+{
+  "email_id": "po_022",
+  "file": "corpus/po_emails/po_022.txt",
+  "difficulty": "hard",
+  "tags": [
+    "not_a_po",
+    "amendment"
+  ],
+  "expected": {
+    "purchase_orders": []
+  },
+  "resolution": [],
+  "expected_issues": [],
+  "notes": "Amendment to an existing PO, not a new order. Expected: no purchase orders (route to an order-change flow later)."
+}

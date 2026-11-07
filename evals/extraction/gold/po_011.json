@@ -1,0 +1,74 @@
+{
+  "email_id": "po_011",
+  "file": "corpus/po_emails/po_011.txt",
+  "difficulty": "hard",
+  "tags": [
+    "multiple_pos"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "HBW/NSK/1182",
+        "customer_name_as_written": "Hindustan Boiler Works",
+        "order_date": "2026-11-06",
+        "currency": "INR",
+        "stated_total": 49772.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-190",
+            "description": "Ball Valve, Bronze, 4 inch",
+            "quantity": 4.0,
+            "unit_price": 11013.0
+          },
+          {
+            "sku_as_written": "GKT-140",
+            "description": "CAF Gasket, Class 300, 2 inch",
+            "quantity": 20.0,
+            "unit_price": 286.0
+          }
+        ]
+      },
+      {
+        "schema_version": "po.v1",
+        "po_number": "HBW/SNR/0457",
+        "customer_name_as_written": "Hindustan Boiler Works",
+        "order_date": "2026-11-06",
+        "currency": "INR",
+        "stated_total": 18576.0,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-150",
+            "description": "Dosing Pump, Bronze impeller, 1 HP",
+            "quantity": 1.0,
+            "unit_price": 8730.0
+          },
+          {
+            "sku_as_written": "SEL-140",
+            "description": "Gland Packing, Carbon/Ceramic, 45 mm",
+            "quantity": 6.0,
+            "unit_price": 1641.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C036",
+      "line_item_ids": [
+        "VLV-190",
+        "GKT-140"
+      ]
+    },
+    {
+      "customer_id": "C036",
+      "line_item_ids": [
+        "PMP-150",
+        "SEL-140"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "Two POs from one customer: expected output has two entries."
+}

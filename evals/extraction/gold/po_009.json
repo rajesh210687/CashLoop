@@ -1,0 +1,54 @@
+{
+  "email_id": "po_009",
+  "file": "corpus/po_emails/po_009.txt",
+  "difficulty": "hard",
+  "tags": [
+    "hinglish",
+    "prices_in_prose",
+    "missing_year"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "SKE-0098",
+        "customer_name_as_written": "Sai Krupa Enterprises",
+        "order_date": "2026-11-05",
+        "currency": "INR",
+        "stated_total": 216065.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-112",
+            "description": "needle valve 2 inch",
+            "quantity": 15.0,
+            "unit_price": 4915.0
+          },
+          {
+            "sku_as_written": "FTG-121",
+            "description": "elbow 45 deg 6 inch",
+            "quantity": 100.0,
+            "unit_price": 1360.0
+          },
+          {
+            "sku_as_written": "SEL-130",
+            "description": "gland packing 28 mm",
+            "quantity": 10.0,
+            "unit_price": 634.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C038",
+      "line_item_ids": [
+        "VLV-112",
+        "FTG-121",
+        "SEL-130"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "Year missing from PO date: take it from the email header (2026)."
+}

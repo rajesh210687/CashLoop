@@ -1,0 +1,15 @@
+{
+  "email_id": "po_012",
+  "file": "corpus/po_emails/po_012.txt",
+  "difficulty": "hard",
+  "tags": [
+    "not_a_po",
+    "rfq"
+  ],
+  "expected": {
+    "purchase_orders": []
+  },
+  "resolution": [],
+  "expected_issues": [],
+  "notes": "A request for quotation, not an order. Expected: no purchase orders."
+}

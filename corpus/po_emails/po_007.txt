@@ -1,0 +1,19 @@
+From: Hitesh Shah <purchase@pragatifab.com>
+To: orders@kaverisupplies.in
+Date: Fri, 30 Oct 2026 12:48 +0530
+Subject: PO PF/2026/552
+
+Dear Sir,
+
+Purchase Order: PF/2026/552
+Date: 30-10-2026
+
+Sl | Item Code | Description                             | Qty | Unit | Rate          | Amount
+1  | MTR-110   | Flameproof Motor, 2 pole, 10 HP         | 2   | nos  | Rs. 61,198.00 | Rs. 1,22,396.00
+2  | PMP-140   | Centrifugal Pump, Bronze impeller, 1 HP | 2   | nos  | Rs. 10,736.00 | Rs. 21,472.00
+3  | FTG-160   | Elbow 90 deg, SS304, 4 inch             | 20  | nos  | Rs. 1,316.00  | Rs. 26,320.00
+
+TOTAL: Rs. 1,80,188.00
+
+Hitesh Shah
+Pragati Fabricators, Ahmedabad

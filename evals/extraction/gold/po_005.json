@@ -1,0 +1,60 @@
+{
+  "email_id": "po_005",
+  "file": "corpus/po_emails/po_005.txt",
+  "difficulty": "medium",
+  "tags": [
+    "unknown_sku"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "BIW-26-117",
+        "customer_name_as_written": "Bharat Irrigation Works",
+        "order_date": "2026-11-02",
+        "currency": "INR",
+        "stated_total": 243504.0,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-135",
+            "description": "Monoblock Pump, CI body, 2 HP",
+            "quantity": 4.0,
+            "unit_price": 16201.0
+          },
+          {
+            "sku_as_written": "PMP-9999",
+            "description": "Openwell Submersible Pump, 15 HP",
+            "quantity": 2.0,
+            "unit_price": 52000.0
+          },
+          {
+            "sku_as_written": "PIP-120",
+            "description": "GI Pipe, Sch 40, 2 inch, 6 m length",
+            "quantity": 30.0,
+            "unit_price": 2490.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C009",
+      "line_item_ids": [
+        "PMP-135",
+        null,
+        "PIP-120"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "UNKNOWN_SKU",
+      "line_index": 1,
+      "severity": "review",
+      "may_be_extraction_error": true
+    }
+  ],
+  "notes": "PMP-9999 is not in the item master. Flag for review."
+}

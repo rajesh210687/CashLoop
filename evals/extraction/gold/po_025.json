@@ -1,0 +1,68 @@
+{
+  "email_id": "po_025",
+  "file": "corpus/po_emails/po_025.txt",
+  "difficulty": "medium",
+  "tags": [
+    "formal",
+    "tnc_noise",
+    "many_lines"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "GPML/PUR/2026-27/2093",
+        "customer_name_as_written": "Godavari Paper Mills Ltd",
+        "order_date": "2026-10-29",
+        "currency": "INR",
+        "stated_total": 255048.0,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-155",
+            "description": "Submersible Pump, SS body, 10 HP",
+            "quantity": 2.0,
+            "unit_price": 105354.0
+          },
+          {
+            "sku_as_written": "VLV-185",
+            "description": "Gate Valve, SS304, 1 inch",
+            "quantity": 8.0,
+            "unit_price": 1522.0
+          },
+          {
+            "sku_as_written": "VLV-186",
+            "description": "Globe Valve, Cast Iron, 1.5 inch",
+            "quantity": 8.0,
+            "unit_price": 2200.0
+          },
+          {
+            "sku_as_written": "GKT-145",
+            "description": "Rubber Gasket, PN16, 1 inch",
+            "quantity": 32.0,
+            "unit_price": 62.0
+          },
+          {
+            "sku_as_written": "PIP-130",
+            "description": "ERW Pipe, Sch 80, 1/2 inch, 6 m length",
+            "quantity": 10.0,
+            "unit_price": 1258.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C014",
+      "line_item_ids": [
+        "PMP-155",
+        "VLV-185",
+        "VLV-186",
+        "GKT-145",
+        "PIP-130"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "Numbers in the terms (21 days, 0.5%, 5%, 45 days) must not leak into line items or totals."
+}

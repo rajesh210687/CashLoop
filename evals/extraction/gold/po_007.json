@@ -1,0 +1,60 @@
+{
+  "email_id": "po_007",
+  "file": "corpus/po_emails/po_007.txt",
+  "difficulty": "medium",
+  "tags": [
+    "total_mismatch"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "PF/2026/552",
+        "customer_name_as_written": "Pragati Fabricators",
+        "order_date": "2026-10-30",
+        "currency": "INR",
+        "stated_total": 180188.0,
+        "line_items": [
+          {
+            "sku_as_written": "MTR-110",
+            "description": "Flameproof Motor, 2 pole, 10 HP",
+            "quantity": 2.0,
+            "unit_price": 61198.0
+          },
+          {
+            "sku_as_written": "PMP-140",
+            "description": "Centrifugal Pump, Bronze impeller, 1 HP",
+            "quantity": 2.0,
+            "unit_price": 10736.0
+          },
+          {
+            "sku_as_written": "FTG-160",
+            "description": "Elbow 90 deg, SS304, 4 inch",
+            "quantity": 20.0,
+            "unit_price": 1316.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C010",
+      "line_item_ids": [
+        "MTR-110",
+        "PMP-140",
+        "FTG-160"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "TOTAL_MISMATCH",
+      "line_index": null,
+      "severity": "review",
+      "may_be_extraction_error": true
+    }
+  ],
+  "notes": "Stated total is Rs. 10,000 more than the sum of lines. Extract the total as written."
+}

@@ -1,0 +1,54 @@
+{
+  "email_id": "po_010",
+  "file": "corpus/po_emails/po_010.txt",
+  "difficulty": "hard",
+  "tags": [
+    "forwarded_chain",
+    "revised_quantity"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "TFP/PO/2026/301",
+        "customer_name_as_written": "Trident Fire Protection",
+        "order_date": "2026-11-03",
+        "currency": "INR",
+        "stated_total": 55480.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-140",
+            "description": "Needle Valve, SS316, 1/2 inch",
+            "quantity": 60.0,
+            "unit_price": 787.0
+          },
+          {
+            "sku_as_written": "FTG-170",
+            "description": "Equal Tee, MS, 2 inch",
+            "quantity": 60.0,
+            "unit_price": 400.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C044",
+      "line_item_ids": [
+        "VLV-140",
+        "FTG-170"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "TOTAL_MISMATCH",
+      "line_index": null,
+      "severity": "review",
+      "may_be_extraction_error": true
+    }
+  ],
+  "notes": "Use the revised quantity (60). The stated total is the stale original, so TOTAL_MISMATCH is correct and expected."
+}

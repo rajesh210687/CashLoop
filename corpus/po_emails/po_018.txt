@@ -1,0 +1,23 @@
+From: Kavya N <scm@precisionflow.in>
+To: orders@kaverisupplies.in
+Date: Thu, 5 Nov 2026 11:50 +0530
+Subject: PO PFT/PO/26-27/0144
+
+Hi,
+
+PO PFT/PO/26-27/0144 dt 05-Nov-26, pasted from our sheet:
+
+Sl	Item Code	Description	Qty	Unit	Rate	Amount
+1	VLV-101	Check Valve (NRV), Cast Iron, 1.5 inch	5	nos	Rs. 1,711.00	Rs. 8,555.00
+2	VLV-108	Gate Valve, Bronze, 1.5 inch	5	nos	Rs. 3,031.00	Rs. 15,155.00
+3	FTG-140	Coupling, SS304, 2 inch	30	nos	Rs. 616.00	Rs. 18,480.00
+4	FTG-141	End Cap, CPVC, 3/4 inch	30	nos	Rs. 124.00	Rs. 3,720.00
+5	GKT-101	Spiral Wound Gasket, Class 150, 2 inch	60	nos	Rs. 193.00	Rs. 11,580.00
+6	GKT-102	Rubber Gasket, Class 150, 8 inch	60	nos	Rs. 1,021.00	Rs. 61,260.00
+7	SEL-101	Oil Seal, Nitrile, 45 mm	10	nos	Rs. 1,932.00	Rs. 19,320.00
+8	PIP-101	CPVC Pipe, Heavy class, 1/2 inch, 6 m length	12	length	Rs. 1,164.00	Rs. 13,968.00
+
+Total						Rs. 1,52,038.00
+
+Kavya N
+Supply Chain, Precision Flow Technologies Pvt Ltd

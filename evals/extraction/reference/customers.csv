@@ -1,0 +1,23 @@
+customer_id,name,city,state,gstin,currency,tier,payment_terms
+C001,Shree Ganesh Engineering Pvt Ltd,Bengaluru,KA,29HOUIO5183V1ZA,INR,B,Net 45
+C002,Deccan Pumps & Spares,Hyderabad,TS,36VRFCO6661S1ZT,INR,C,Net 45
+C003,Acme Process Equipment Pvt Ltd,Pune,MH,27WIOJG7302P1ZG,INR,A,Net 45
+C004,Malnad Agro Industries,Shivamogga,KA,29SLSJW5837A1ZZ,INR,B,Net 30
+C005,Coromandel Fluid Controls Pvt Ltd,Chennai,TN,33SVYXB9138J1ZO,INR,C,Net 45
+C006,Vijay Hydraulics,Coimbatore,TN,33HUGTI3240U1ZG,INR,C,Net 60
+C007,Sahyadri Water Solutions LLP,Kolhapur,MH,27BJZOB6977X1ZI,INR,A,Net 45
+C008,Nandi Chemicals Ltd,Bengaluru,KA,29KXNFG3165Z1Z8,INR,B,Net 60
+C009,Bharat Irrigation Works,Hubballi,KA,29QIFIP5835X1ZV,INR,A,Net 45
+C010,Pragati Fabricators,Ahmedabad,GJ,24CEYHV7511Z1Z9,INR,B,Net 30
+C012,Sri Venkateswara Textiles Ltd,Tiruppur,TN,33VISMU7086D1ZO,INR,B,Net 30
+C014,Godavari Paper Mills Ltd,Rajahmundry,AP,37UNDEB1609J1Z5,INR,A,Net 30
+C015,Precision Flow Technologies Pvt Ltd,Bengaluru,KA,29HREMO7078V1Z8,INR,B,Net 60
+C023,Metro HVAC Services,Bengaluru,KA,29KAFIB3076X1Z0,INR,C,Net 30
+C024,Royal Hotels & Resorts Pvt Ltd,Mangaluru,KA,29XCPOY6931Q1ZG,INR,B,Net 60
+C028,Silicon Valley Facilities Mgmt Pvt Ltd,Bengaluru,KA,29MTQJO9282T1Z1,INR,A,Net 60
+C029,Narmada Cements Ltd,Bharuch,GJ,24DUUYR4522N1Z2,INR,A,Net 45
+C031,Apex Pharma Engineering Pvt Ltd,Hyderabad,TS,36ILEVP2099C1ZF,INR,A,Net 45
+C036,Hindustan Boiler Works,Nashik,MH,27ZNRYT1430T1ZR,INR,A,Net 30
+C038,Sai Krupa Enterprises,Tumakuru,KA,29VMCEX1502C1Z7,INR,A,Net 45
+C044,Trident Fire Protection Pvt Ltd,Bengaluru,KA,29KDAPX8055F1ZI,INR,B,Net 60
+C049,Gulf Flow Systems LLC,Dubai,AE,,USD,C,Net 45

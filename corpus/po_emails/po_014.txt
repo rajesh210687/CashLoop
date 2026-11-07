@@ -1,0 +1,20 @@
+From: Prakash Hegde <malnadagro@yahoo.co.in>
+To: orders@kaverisupplies.in
+Date: Wed, 28 Oct 2026 10:45 +0530
+Subject: Order
+
+Dear Sir,
+
+Please supply the below material. PO number will be shared by our accounts team separately.
+
+Date: 28-10-2026
+
+Sl | Item Code | Description                                 | Qty | Unit   | Rate          | Amount
+1  | PMP-118   | Monoblock Pump, Bronze impeller, 2 HP       | 2   | nos    | Rs. 14,274.00 | Rs. 28,548.00
+2  | PIP-105   | Seamless Pipe, Sch 80, 1/2 inch, 6 m length | 20  | length | Rs. 1,196.00  | Rs. 23,920.00
+3  | FTG-110   | Reducer, MS, 3/4 inch                       | 40  | nos    | Rs. 92.00     | Rs. 3,680.00
+
+Total: Rs. 56,148.00
+
+Prakash Hegde
+Malnad Agro Industries, Shivamogga

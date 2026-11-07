@@ -1,0 +1,89 @@
+{
+  "email_id": "po_018",
+  "file": "corpus/po_emails/po_018.txt",
+  "difficulty": "medium",
+  "tags": [
+    "excel_paste",
+    "two_digit_year",
+    "many_lines"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "PFT/PO/26-27/0144",
+        "customer_name_as_written": "Precision Flow Technologies Pvt Ltd",
+        "order_date": "2026-11-05",
+        "currency": "INR",
+        "stated_total": 152038.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-101",
+            "description": "Check Valve (NRV), Cast Iron, 1.5 inch",
+            "quantity": 5.0,
+            "unit_price": 1711.0
+          },
+          {
+            "sku_as_written": "VLV-108",
+            "description": "Gate Valve, Bronze, 1.5 inch",
+            "quantity": 5.0,
+            "unit_price": 3031.0
+          },
+          {
+            "sku_as_written": "FTG-140",
+            "description": "Coupling, SS304, 2 inch",
+            "quantity": 30.0,
+            "unit_price": 616.0
+          },
+          {
+            "sku_as_written": "FTG-141",
+            "description": "End Cap, CPVC, 3/4 inch",
+            "quantity": 30.0,
+            "unit_price": 124.0
+          },
+          {
+            "sku_as_written": "GKT-101",
+            "description": "Spiral Wound Gasket, Class 150, 2 inch",
+            "quantity": 60.0,
+            "unit_price": 193.0
+          },
+          {
+            "sku_as_written": "GKT-102",
+            "description": "Rubber Gasket, Class 150, 8 inch",
+            "quantity": 60.0,
+            "unit_price": 1021.0
+          },
+          {
+            "sku_as_written": "SEL-101",
+            "description": "Oil Seal, Nitrile, 45 mm",
+            "quantity": 10.0,
+            "unit_price": 1932.0
+          },
+          {
+            "sku_as_written": "PIP-101",
+            "description": "CPVC Pipe, Heavy class, 1/2 inch, 6 m length",
+            "quantity": 12.0,
+            "unit_price": 1164.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C015",
+      "line_item_ids": [
+        "VLV-101",
+        "VLV-108",
+        "FTG-140",
+        "FTG-141",
+        "GKT-101",
+        "GKT-102",
+        "SEL-101",
+        "PIP-101"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": ""
+}

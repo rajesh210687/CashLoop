@@ -1,0 +1,18 @@
+From: R. Balaji <purchase@coromandelfc.com>
+To: orders@kaverisupplies.in
+Date: Mon, 2 Nov 2026 15:05 +0530
+Subject: PO CFC/PO/2026/0788
+
+Dear Sir,
+
+PO No: CFC/PO/2026/0788    PO Date: 02/11/2026
+
+Sl | Item Code | Description                      | Qty | Unit | Rate         | Amount
+1  | VLV-155   | Gate Valve, Cast Steel, 1.5 inch | 6   | nos  | Rs. 2,009.00 | Rs. 12,054.00
+2  | FTG-150   | End Cap, SS304, 1.5 inch         | 24  | nos  | Rs. 485.00   | Rs. 11,640.00
+3  | SEL-990   | Cartridge Mechanical Seal, 60 mm | 4   | nos  | Rs. 7,800.00 | Rs. 31,200.00
+
+Total: Rs. 54,894.00
+
+R. Balaji
+Coromandel Fluid Controls Pvt Ltd, Chennai

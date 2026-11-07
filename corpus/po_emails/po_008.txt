@@ -1,0 +1,18 @@
+From: Senthil Kumar <purchase@svtextiles.in>
+To: orders@kaverisupplies.in
+Date: Wed, 4 Nov 2026 10:00 +0530
+Subject: PO SVT/PUR/2610
+
+Dear Sir,
+
+PO No.: SVT/PUR/2610
+Date: 04/11/2026
+
+Sl | Item Code | Description                             | Qty | Unit | Rate       | Amount
+1  | VLV-170   | Check Valve (NRV), Cast Steel, 3/4 inch | 8   | nos  | Rs. 879.00 | Rs. 7,032.00
+2  | GKT-130   | CAF Gasket, PN16, 6 inch                | 16  | nos  | Rs. 727.00 | Rs. 11,632.00
+
+Total value: Rs. 18,664.00
+
+Senthil Kumar
+Sri Venkateswara Textiles Ltd, Tiruppur

@@ -1,0 +1,59 @@
+{
+  "email_id": "po_001",
+  "file": "corpus/po_emails/po_001.txt",
+  "difficulty": "easy",
+  "tags": [
+    "clean_table"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "SGE/PO/2026/0412",
+        "customer_name_as_written": "Shree Ganesh Engineering Pvt Ltd",
+        "order_date": "2026-11-02",
+        "currency": "INR",
+        "stated_total": 145430.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-118",
+            "description": "Gate Valve, Cast Iron, 6 inch",
+            "quantity": 10.0,
+            "unit_price": 12153.0
+          },
+          {
+            "sku_as_written": "FTG-145",
+            "description": "Elbow 45 deg, SS304, 1.5 inch",
+            "quantity": 50.0,
+            "unit_price": 391.0
+          },
+          {
+            "sku_as_written": "GKT-112",
+            "description": "CAF Gasket, Class 150, 1/2 inch",
+            "quantity": 50.0,
+            "unit_price": 51.0
+          },
+          {
+            "sku_as_written": "SEL-105",
+            "description": "Oil Seal, Nitrile, 22 mm",
+            "quantity": 8.0,
+            "unit_price": 225.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C001",
+      "line_item_ids": [
+        "VLV-118",
+        "FTG-145",
+        "GKT-112",
+        "SEL-105"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": ""
+}

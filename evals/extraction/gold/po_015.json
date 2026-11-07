@@ -1,0 +1,52 @@
+{
+  "email_id": "po_015",
+  "file": "corpus/po_emails/po_015.txt",
+  "difficulty": "medium",
+  "tags": [
+    "no_prices"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "NCL/PR/26/3310",
+        "customer_name_as_written": "Nandi Chemicals Ltd",
+        "order_date": "2026-11-02",
+        "currency": "INR",
+        "stated_total": null,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-180",
+            "description": "Globe Valve, Cast Iron, 3/4 inch",
+            "quantity": 10.0,
+            "unit_price": null
+          },
+          {
+            "sku_as_written": "SEL-150",
+            "description": "O-Ring Kit, SiC/SiC, 22 mm",
+            "quantity": 10.0,
+            "unit_price": null
+          },
+          {
+            "sku_as_written": "GKT-150",
+            "description": "Spiral Wound Gasket, Class 150, 6 inch",
+            "quantity": 40.0,
+            "unit_price": null
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C008",
+      "line_item_ids": [
+        "VLV-180",
+        "SEL-150",
+        "GKT-150"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "No prices in the email: unit_price and stated_total are null. Not an issue; price comes from the price list."
+}

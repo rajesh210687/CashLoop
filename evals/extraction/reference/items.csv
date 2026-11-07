@@ -1,0 +1,69 @@
+sku,description,unit,base_price_inr
+FTG-102,"Union, SS304, 6 inch",nos,2455
+FTG-110,"Reducer, MS, 3/4 inch",nos,100
+FTG-115,"Equal Tee, GI, 1.5 inch",nos,285
+FTG-121,"Elbow 45 deg, GI, 6 inch",nos,1545
+FTG-125,"Equal Tee, CPVC, 3/4 inch",nos,140
+FTG-133,"Equal Tee, SS304, 1 inch",nos,235
+FTG-140,"Coupling, SS304, 2 inch",nos,670
+FTG-141,"End Cap, CPVC, 3/4 inch",nos,135
+FTG-145,"Elbow 45 deg, SS304, 1.5 inch",nos,425
+FTG-150,"End Cap, SS304, 1.5 inch",nos,505
+FTG-155,"Coupling, SS304, 3 inch",nos,1055
+FTG-160,"Elbow 90 deg, SS304, 4 inch",nos,1430
+FTG-170,"Equal Tee, MS, 2 inch",nos,435
+FTG-175,"Elbow 90 deg, SS316, 6 inch",nos,3525
+FTG-180,"End Cap, SS316, 6 inch",nos,4030
+FTG-220,"Elbow 45 deg, MS, 1.5 inch",nos,240
+GKT-101,"Spiral Wound Gasket, Class 150, 2 inch",nos,210
+GKT-102,"Rubber Gasket, Class 150, 8 inch",nos,1110
+GKT-112,"CAF Gasket, Class 150, 1/2 inch",nos,55
+GKT-120,"CAF Gasket, Class 300, 6 inch",nos,1050
+GKT-125,"CAF Gasket, Class 150, 1.5 inch",nos,110
+GKT-130,"CAF Gasket, PN16, 6 inch",nos,790
+GKT-140,"CAF Gasket, Class 300, 2 inch",nos,325
+GKT-145,"Rubber Gasket, PN16, 1 inch",nos,70
+GKT-150,"Spiral Wound Gasket, Class 150, 6 inch",nos,780
+MTR-110,"Flameproof Motor, 2 pole, 10 HP",nos,66520
+MTR-120,"TEFC Induction Motor, 4 pole, 3 HP",nos,24755
+PIP-101,"CPVC Pipe, Heavy class, 1/2 inch, 6 m length",length,1265
+PIP-105,"Seamless Pipe, Sch 80, 1/2 inch, 6 m length",length,1300
+PIP-120,"GI Pipe, Sch 40, 2 inch, 6 m length",length,2830
+PIP-130,"ERW Pipe, Sch 80, 1/2 inch, 6 m length",length,1430
+PMP-110,"Monoblock Pump, Bronze impeller, 1 HP",nos,11210
+PMP-115,"Submersible Pump, Bronze impeller, 10 HP",nos,72895
+PMP-118,"Monoblock Pump, Bronze impeller, 2 HP",nos,15515
+PMP-121,"Dosing Pump, SS body, 5 HP",nos,57890
+PMP-125,"Dosing Pump, Bronze impeller, 7.5 HP",nos,46740
+PMP-130,"Dosing Pump, CI body, 5 HP",nos,32220
+PMP-135,"Monoblock Pump, CI body, 2 HP",nos,18410
+PMP-140,"Centrifugal Pump, Bronze impeller, 1 HP",nos,11670
+PMP-145,"Monoblock Pump, CI body, 7.5 HP",nos,61350
+PMP-150,"Dosing Pump, Bronze impeller, 1 HP",nos,9920
+PMP-155,"Submersible Pump, SS body, 10 HP",nos,119720
+SEL-101,"Oil Seal, Nitrile, 45 mm",nos,2100
+SEL-105,"Oil Seal, Nitrile, 22 mm",nos,245
+SEL-118,"Oil Seal, Carbon/Ceramic, 28 mm",nos,530
+SEL-130,"Gland Packing, SiC/SiC, 28 mm",nos,720
+SEL-140,"Gland Packing, Carbon/Ceramic, 45 mm",nos,1865
+SEL-150,"O-Ring Kit, SiC/SiC, 22 mm",nos,455
+VLV-101,"Check Valve (NRV), Cast Iron, 1.5 inch",nos,1860
+VLV-108,"Gate Valve, Bronze, 1.5 inch",nos,3295
+VLV-110,"Gate Valve, SS316, 1 inch",nos,2125
+VLV-112,"Needle Valve, Bronze, 2 inch",nos,5585
+VLV-115,"Butterfly Valve, SS316, 6 inch",nos,27030
+VLV-118,"Gate Valve, Cast Iron, 6 inch",nos,13210
+VLV-125,"Butterfly Valve, SS304, 6 inch",nos,22175
+VLV-131,"Ball Valve, SS316, 1.5 inch",nos,4620
+VLV-140,"Needle Valve, SS316, 1/2 inch",nos,855
+VLV-145,"Check Valve (NRV), Bronze, 1.5 inch",nos,3350
+VLV-150,"Gate Valve, SS316, 1/2 inch",nos,885
+VLV-155,"Gate Valve, Cast Steel, 1.5 inch",nos,2325
+VLV-162,"Globe Valve, Bronze, 1.5 inch",nos,2970
+VLV-170,"Check Valve (NRV), Cast Steel, 3/4 inch",nos,955
+VLV-180,"Globe Valve, Cast Iron, 3/4 inch",nos,1000
+VLV-185,"Gate Valve, SS304, 1 inch",nos,1730
+VLV-186,"Globe Valve, Cast Iron, 1.5 inch",nos,2500
+VLV-190,"Ball Valve, Bronze, 4 inch",nos,12515
+VLV-200,"Ball Valve, SS304, 4 inch",nos,11345
+VLV-204,"Needle Valve, Cast Steel, 1.5 inch",nos,2385

@@ -1,0 +1,18 @@
+From: stores@acmeprocess.co.in
+To: orders@kaverisupplies.in
+Date: Sat, 31 Oct 2026 11:02 +0530
+Subject: PO APE/4471
+
+Pls supply the following against PO APE/4471 dt 31.10.2026
+
+Sl | Item Code | Description                   | Qty | Unit | Rate         | Amount
+1  | VLV-150   | Gate Valve, SS316, 1/2 inch   | 6   | nos  | Rs. 779.00   | Rs. 4,674.00
+2  | VLV-162   | Globe Valve, Bronze, 1.5 inch | 6   | nos  | Rs. 2,614.00 | Rs. 15,684.00
+3  | FTG-180   | End Cap, SS316, 6 inch        | 24  | nos  | Rs. 3,546.00 | Rs. 85,104.00
+
+Total: Rs. 1,05,462.00
+
+--
+Stores & Purchase
+Acme Process Equip.
+Bhosari MIDC, Pune

@@ -1,0 +1,47 @@
+{
+  "email_id": "po_024",
+  "file": "corpus/po_emails/po_024.txt",
+  "difficulty": "hard",
+  "tags": [
+    "terse",
+    "no_prices",
+    "no_date"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "1128",
+        "customer_name_as_written": "Deccan Pumps",
+        "order_date": null,
+        "currency": "INR",
+        "stated_total": null,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-110",
+            "description": "Gate Valve, SS316, 1 inch",
+            "quantity": 10.0,
+            "unit_price": null
+          },
+          {
+            "sku_as_written": "FTG-220",
+            "description": "Elbow 45 deg, MS, 1.5 inch",
+            "quantity": 5.0,
+            "unit_price": null
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C002",
+      "line_item_ids": [
+        "VLV-110",
+        "FTG-220"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "No PO date in the body: order_date is null (do not use the header date). No descriptions or prices: null."
+}

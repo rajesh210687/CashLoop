@@ -1,0 +1,60 @@
+{
+  "email_id": "po_014",
+  "file": "corpus/po_emails/po_014.txt",
+  "difficulty": "medium",
+  "tags": [
+    "missing_po_number"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": null,
+        "customer_name_as_written": "Malnad Agro Industries",
+        "order_date": "2026-10-28",
+        "currency": "INR",
+        "stated_total": 56148.0,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-118",
+            "description": "Monoblock Pump, Bronze impeller, 2 HP",
+            "quantity": 2.0,
+            "unit_price": 14274.0
+          },
+          {
+            "sku_as_written": "PIP-105",
+            "description": "Seamless Pipe, Sch 80, 1/2 inch, 6 m length",
+            "quantity": 20.0,
+            "unit_price": 1196.0
+          },
+          {
+            "sku_as_written": "FTG-110",
+            "description": "Reducer, MS, 3/4 inch",
+            "quantity": 40.0,
+            "unit_price": 92.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C004",
+      "line_item_ids": [
+        "PMP-118",
+        "PIP-105",
+        "FTG-110"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "MISSING_PO_NUMBER",
+      "line_index": null,
+      "severity": "review",
+      "may_be_extraction_error": false
+    }
+  ],
+  "notes": ""
+}

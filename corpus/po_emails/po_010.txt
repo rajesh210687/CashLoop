@@ -1,0 +1,26 @@
+From: Anitha M <purchase@tridentfire.in>
+To: orders@kaverisupplies.in
+Date: Wed, 4 Nov 2026 15:30 +0530
+Subject: Fwd: PO TFP/PO/2026/301
+
+Hi team, please process the below PO with the revision mentioned by Prakash.
+- Anitha, Purchase, Trident Fire Protection
+
+---------- Forwarded message ---------
+From: Prakash S (Projects) <prakash@tridentfire.in>
+Date: Wed, 4 Nov 2026 12:10
+Subject: Re: PO TFP/PO/2026/301
+
+Pls revise qty for VLV-140 to 60 nos instead of 40, rest same. Send to Kaveri today.
+
+---------- Original message ---------
+From: Stores <stores@tridentfire.in>
+Date: Tue, 3 Nov 2026 17:45
+
+PO TFP/PO/2026/301 dated 03-Nov-2026
+
+Sl | Item Code | Description                   | Qty | Unit | Rate       | Amount
+1  | VLV-140   | Needle Valve, SS316, 1/2 inch | 40  | nos  | Rs. 787.00 | Rs. 31,480.00
+2  | FTG-170   | Equal Tee, MS, 2 inch         | 60  | nos  | Rs. 400.00 | Rs. 24,000.00
+
+Total: Rs. 55,480.00

@@ -1,0 +1,52 @@
+{
+  "email_id": "po_016",
+  "file": "corpus/po_emails/po_016.txt",
+  "difficulty": "hard",
+  "tags": [
+    "unit_conversion"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "RHR/MLR/0219",
+        "customer_name_as_written": "Royal Hotels & Resorts",
+        "order_date": "2026-11-03",
+        "currency": "INR",
+        "stated_total": 98562.0,
+        "line_items": [
+          {
+            "sku_as_written": "GKT-120",
+            "description": "caf gasket 6 inch",
+            "quantity": 24.0,
+            "unit_price": 966.0
+          },
+          {
+            "sku_as_written": "FTG-125",
+            "description": "equal tee 3/4 inch",
+            "quantity": 6.0,
+            "unit_price": 129.0
+          },
+          {
+            "sku_as_written": "VLV-115",
+            "description": "butterfly valve 6 inch",
+            "quantity": 3.0,
+            "unit_price": 24868.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C024",
+      "line_item_ids": [
+        "GKT-120",
+        "FTG-125",
+        "VLV-115"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "'2 dozen' = 24 and 'half dozen' = 6."
+}

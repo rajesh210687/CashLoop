@@ -1,0 +1,53 @@
+{
+  "email_id": "po_006",
+  "file": "corpus/po_emails/po_006.txt",
+  "difficulty": "hard",
+  "tags": [
+    "sku_typo"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "MH/PO/1093",
+        "customer_name_as_written": "Metro HVAC Services",
+        "order_date": "2026-11-04",
+        "currency": "INR",
+        "stated_total": 34260.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-2O4",
+            "description": "Needle Valve, Cast Steel, 1.5 inch",
+            "quantity": 12.0,
+            "unit_price": 2290.0
+          },
+          {
+            "sku_as_written": "FTG-133",
+            "description": "Equal Tee, SS304, 1 inch",
+            "quantity": 30.0,
+            "unit_price": 226.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C023",
+      "line_item_ids": [
+        "VLV-204",
+        "FTG-133"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "SKU_FUZZY_MATCH",
+      "line_index": 0,
+      "severity": "review",
+      "may_be_extraction_error": true
+    }
+  ],
+  "notes": "'VLV-2O4' uses a capital O. sku_as_written must keep the typo; resolution maps it to VLV-204."
+}

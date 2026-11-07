@@ -1,0 +1,23 @@
+From: Omar Haddad <procurement@gulfflow.ae>
+To: orders@kaverisupplies.in
+Date: Tue, 3 Nov 2026 13:30 +0400
+Subject: Purchase Order GFS-PO-26-0871
+
+Dear Kaveri team,
+
+Please accept our purchase order:
+
+PO Number: GFS-PO-26-0871
+PO Date: 3 Nov 2026
+Currency: USD
+
+Sl | Item Code | Description                | Qty | Unit | Rate       | Amount
+1  | PMP-130   | Dosing Pump, CI body, 5 HP | 4   | nos  | USD 368.23 | USD 1,472.92
+2  | VLV-200   | Ball Valve, SS304, 4 inch  | 10  | nos  | USD 129.66 | USD 1,296.60
+
+Total: USD 2,769.52
+Incoterm: FOB Chennai. Payment by TT as per agreed terms.
+
+Best regards,
+Omar Haddad
+Gulf Flow Systems LLC, Dubai

@@ -1,0 +1,26 @@
+From: Deepak Kulkarni <purchase@hindustanboiler.com>
+To: orders@kaverisupplies.in
+Date: Fri, 6 Nov 2026 11:25 +0530
+Subject: Two POs - Nashik & Sinnar plants
+
+Dear Sir,
+
+Please find two separate purchase orders below, one for each plant. Invoice each plant separately.
+
+PO 1 - Nashik plant
+PO No: HBW/NSK/1182    Date: 06/11/2026
+Sl | Item Code | Description                   | Qty | Unit | Rate          | Amount
+1  | VLV-190   | Ball Valve, Bronze, 4 inch    | 4   | nos  | Rs. 11,013.00 | Rs. 44,052.00
+2  | GKT-140   | CAF Gasket, Class 300, 2 inch | 20  | nos  | Rs. 286.00    | Rs. 5,720.00
+Sub-total: Rs. 49,772.00
+
+PO 2 - Sinnar plant
+PO No: HBW/SNR/0457    Date: 06/11/2026
+Sl | Item Code | Description                          | Qty | Unit | Rate         | Amount
+1  | PMP-150   | Dosing Pump, Bronze impeller, 1 HP   | 1   | nos  | Rs. 8,730.00 | Rs. 8,730.00
+2  | SEL-140   | Gland Packing, Carbon/Ceramic, 45 mm | 6   | nos  | Rs. 1,641.00 | Rs. 9,846.00
+Sub-total: Rs. 18,576.00
+
+Regards,
+Deepak Kulkarni
+Hindustan Boiler Works

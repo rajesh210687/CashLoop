@@ -1,0 +1,20 @@
+From: Nikhil Desai <nikhil@procureright.in>
+To: orders@kaverisupplies.in
+Date: Sun, 1 Nov 2026 19:40 +0530
+Subject: PO NCL-BRC/PO/5512 on behalf of Narmada Cements
+
+Dear Sir,
+
+On behalf of our client Narmada Cements Ltd, Bharuch, please accept the following purchase order. Invoice and ship directly to Narmada Cements Ltd, Bharuch works.
+
+PO No: NCL-BRC/PO/5512    Date: 1 Nov 2026
+
+Sl | Item Code | Description                        | Qty | Unit | Rate          | Amount
+1  | MTR-120   | TEFC Induction Motor, 4 pole, 3 HP | 2   | nos  | Rs. 21,784.00 | Rs. 43,568.00
+2  | PMP-145   | Monoblock Pump, CI body, 7.5 HP    | 2   | nos  | Rs. 53,988.00 | Rs. 1,07,976.00
+
+Total: Rs. 1,51,544.00
+
+Regards,
+Nikhil Desai
+ProcureRight Consultants, Vadodara

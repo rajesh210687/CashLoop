@@ -1,0 +1,21 @@
+From: Rathna Agro Foods <rathnaagrofoods@gmail.com>
+To: orders@kaverisupplies.in
+Date: Wed, 4 Nov 2026 16:20 +0530
+Subject: New order
+
+Hello,
+
+We are a new food processing unit in Chitradurga. Placing our first order with you as per your catalogue prices.
+
+PO: RAF/001    Date: 4 Nov 2026
+
+Sl | Item Code | Description                              | Qty | Unit | Rate          | Amount
+1  | PMP-115   | Submersible Pump, Bronze impeller, 10 HP | 1   | nos  | Rs. 72,895.00 | Rs. 72,895.00
+2  | FTG-115   | Equal Tee, GI, 1.5 inch                  | 10  | nos  | Rs. 285.00    | Rs. 2,850.00
+
+Total: Rs. 75,745.00
+
+Please share your account opening form.
+
+Mohan
+Rathna Agro Foods, Chitradurga

@@ -1,0 +1,45 @@
+{
+  "email_id": "po_017",
+  "file": "corpus/po_emails/po_017.txt",
+  "difficulty": "easy",
+  "tags": [
+    "usd"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "GFS-PO-26-0871",
+        "customer_name_as_written": "Gulf Flow Systems LLC",
+        "order_date": "2026-11-03",
+        "currency": "USD",
+        "stated_total": 2769.52,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-130",
+            "description": "Dosing Pump, CI body, 5 HP",
+            "quantity": 4.0,
+            "unit_price": 368.23
+          },
+          {
+            "sku_as_written": "VLV-200",
+            "description": "Ball Valve, SS304, 4 inch",
+            "quantity": 10.0,
+            "unit_price": 129.66
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C049",
+      "line_item_ids": [
+        "PMP-130",
+        "VLV-200"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": ""
+}

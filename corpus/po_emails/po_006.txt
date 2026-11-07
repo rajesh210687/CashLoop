@@ -1,0 +1,17 @@
+From: Arjun Rao <arjun@metrohvac.in>
+To: orders@kaverisupplies.in
+Date: Wed, 4 Nov 2026 18:05 +0530
+Subject: PO MH/PO/1093
+
+Hi,
+
+PO MH/PO/1093, Nov 4, 2026
+
+Sl | Item Code | Description                        | Qty | Unit | Rate         | Amount
+1  | VLV-2O4   | Needle Valve, Cast Steel, 1.5 inch | 12  | nos  | Rs. 2,290.00 | Rs. 27,480.00
+2  | FTG-133   | Equal Tee, SS304, 1 inch           | 30  | nos  | Rs. 226.00   | Rs. 6,780.00
+
+Total: Rs. 34,260.00
+
+Arjun Rao
+Metro HVAC Services, Bengaluru

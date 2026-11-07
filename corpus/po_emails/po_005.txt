@@ -1,0 +1,20 @@
+From: Basavaraj H <bharatirrigation@gmail.com>
+To: orders@kaverisupplies.in
+Date: Mon, 2 Nov 2026 13:21 +0530
+Subject: Purchase order BIW-26-117
+
+Sir,
+
+PO No. BIW-26-117    Date: 2 Nov 2026
+
+Sl | Item Code | Description                         | Qty | Unit   | Rate          | Amount
+1  | PMP-135   | Monoblock Pump, CI body, 2 HP       | 4   | nos    | Rs. 16,201.00 | Rs. 64,804.00
+2  | PMP-9999  | Openwell Submersible Pump, 15 HP    | 2   | nos    | Rs. 52,000.00 | Rs. 1,04,000.00
+3  | PIP-120   | GI Pipe, Sch 40, 2 inch, 6 m length | 30  | length | Rs. 2,490.00  | Rs. 74,700.00
+
+Total Rs. 2,43,504.00
+
+Kindly dispatch at the earliest, season is starting.
+
+Basavaraj H
+Bharat Irrigation Works, Hubballi

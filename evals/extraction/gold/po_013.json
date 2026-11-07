@@ -1,0 +1,15 @@
+{
+  "email_id": "po_013",
+  "file": "corpus/po_emails/po_013.txt",
+  "difficulty": "hard",
+  "tags": [
+    "not_a_po",
+    "payment_advice"
+  ],
+  "expected": {
+    "purchase_orders": []
+  },
+  "resolution": [],
+  "expected_issues": [],
+  "notes": "Payment advice that mentions a PO number. Expected: no purchase orders. (Useful later for Project 10.)"
+}

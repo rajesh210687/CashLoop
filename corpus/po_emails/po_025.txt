@@ -1,0 +1,35 @@
+From: Purchase Dept <purchase@godavaripaper.com>
+To: orders@kaverisupplies.in
+Date: Thu, 29 Oct 2026 14:22 +0530
+Subject: Purchase Order GPML/PUR/2026-27/2093
+
+GODAVARI PAPER MILLS LTD
+Purchase Department, Rajahmundry
+GSTIN: 37UNDEB1609J1Z5
+
+PURCHASE ORDER
+PO No.: GPML/PUR/2026-27/2093
+PO Date: 29 October 2026
+Vendor: Kaveri Industrial Supplies, Bengaluru
+Delivery address: Stores Gate No. 2, Godavari Paper Mills Ltd, Rajahmundry
+
+Sl | Item Code | Description                            | Qty | Unit   | Rate            | Amount
+1  | PMP-155   | Submersible Pump, SS body, 10 HP       | 2   | nos    | Rs. 1,05,354.00 | Rs. 2,10,708.00
+2  | VLV-185   | Gate Valve, SS304, 1 inch              | 8   | nos    | Rs. 1,522.00    | Rs. 12,176.00
+3  | VLV-186   | Globe Valve, Cast Iron, 1.5 inch       | 8   | nos    | Rs. 2,200.00    | Rs. 17,600.00
+4  | GKT-145   | Rubber Gasket, PN16, 1 inch            | 32  | nos    | Rs. 62.00       | Rs. 1,984.00
+5  | PIP-130   | ERW Pipe, Sch 80, 1/2 inch, 6 m length | 10  | length | Rs. 1,258.00    | Rs. 12,580.00
+
+Basic value: Rs. 2,55,048.00
+GST: extra at applicable rates
+
+Terms and conditions:
+1. Delivery within 21 days from the date of this PO.
+2. Liquidated damages at 0.5% per week of delay, subject to a maximum of 5% of the order value.
+3. Payment within 45 days of receipt of material and invoice.
+4. Warranty: 18 months from supply or 12 months from commissioning, whichever is earlier.
+5. Test certificates to accompany each consignment. Rejected material to be replaced within 7 days.
+6. Quote our PO number on all invoices and delivery challans.
+
+For Godavari Paper Mills Ltd
+Authorised Signatory

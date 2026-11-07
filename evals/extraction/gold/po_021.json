@@ -1,0 +1,45 @@
+{
+  "email_id": "po_021",
+  "file": "corpus/po_emails/po_021.txt",
+  "difficulty": "hard",
+  "tags": [
+    "buyer_not_sender"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "NCL-BRC/PO/5512",
+        "customer_name_as_written": "Narmada Cements Ltd",
+        "order_date": "2026-11-01",
+        "currency": "INR",
+        "stated_total": 151544.0,
+        "line_items": [
+          {
+            "sku_as_written": "MTR-120",
+            "description": "TEFC Induction Motor, 4 pole, 3 HP",
+            "quantity": 2.0,
+            "unit_price": 21784.0
+          },
+          {
+            "sku_as_written": "PMP-145",
+            "description": "Monoblock Pump, CI body, 7.5 HP",
+            "quantity": 2.0,
+            "unit_price": 53988.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C029",
+      "line_item_ids": [
+        "MTR-120",
+        "PMP-145"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "Customer is Narmada Cements (the buyer), not ProcureRight (the sender)."
+}

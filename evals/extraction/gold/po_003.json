@@ -1,0 +1,53 @@
+{
+  "email_id": "po_003",
+  "file": "corpus/po_emails/po_003.txt",
+  "difficulty": "medium",
+  "tags": [
+    "name_variant",
+    "ddmm_dots"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "APE/4471",
+        "customer_name_as_written": "Acme Process Equip.",
+        "order_date": "2026-10-31",
+        "currency": "INR",
+        "stated_total": 105462.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-150",
+            "description": "Gate Valve, SS316, 1/2 inch",
+            "quantity": 6.0,
+            "unit_price": 779.0
+          },
+          {
+            "sku_as_written": "VLV-162",
+            "description": "Globe Valve, Bronze, 1.5 inch",
+            "quantity": 6.0,
+            "unit_price": 2614.0
+          },
+          {
+            "sku_as_written": "FTG-180",
+            "description": "End Cap, SS316, 6 inch",
+            "quantity": 24.0,
+            "unit_price": 3546.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C003",
+      "line_item_ids": [
+        "VLV-150",
+        "VLV-162",
+        "FTG-180"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "Customer written as 'Acme Process Equip.' must resolve to C003, not C031 Apex Pharma Engineering."
+}

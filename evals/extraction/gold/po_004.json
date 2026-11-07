@@ -1,0 +1,61 @@
+{
+  "email_id": "po_004",
+  "file": "corpus/po_emails/po_004.txt",
+  "difficulty": "medium",
+  "tags": [
+    "price_mismatch",
+    "ambiguous_date"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "SWS/PO/889",
+        "customer_name_as_written": "Sahyadri Water Solutions LLP",
+        "order_date": "2026-11-01",
+        "currency": "INR",
+        "stated_total": 153405.0,
+        "line_items": [
+          {
+            "sku_as_written": "PMP-110",
+            "description": "Monoblock Pump, Bronze impeller, 1 HP",
+            "quantity": 3.0,
+            "unit_price": 9865.0
+          },
+          {
+            "sku_as_written": "VLV-131",
+            "description": "Ball Valve, SS316, 1.5 inch",
+            "quantity": 10.0,
+            "unit_price": 3741.0
+          },
+          {
+            "sku_as_written": "FTG-102",
+            "description": "Union, SS304, 6 inch",
+            "quantity": 40.0,
+            "unit_price": 2160.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C007",
+      "line_item_ids": [
+        "PMP-110",
+        "VLV-131",
+        "FTG-102"
+      ]
+    }
+  ],
+  "expected_issues": [
+    {
+      "po_index": 0,
+      "code": "PRICE_MISMATCH",
+      "line_index": 1,
+      "severity": "review",
+      "may_be_extraction_error": false
+    }
+  ],
+  "notes": "Line 2 rate is ~8% below the customer's price list (old quotation). Real discrepancy: flag, do not retry."
+}

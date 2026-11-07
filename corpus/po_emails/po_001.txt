@@ -1,0 +1,27 @@
+From: Manjunath K <purchase@shreeganeshengg.in>
+To: orders@kaverisupplies.in
+Date: Mon, 2 Nov 2026 10:14 +0530
+Subject: Purchase Order SGE/PO/2026/0412
+
+Dear Sir/Madam,
+
+Please find our purchase order below. Kindly confirm receipt and expected dispatch date.
+
+PO No: SGE/PO/2026/0412
+PO Date: 02-Nov-2026
+Buyer: Shree Ganesh Engineering Pvt Ltd, Peenya Industrial Area, Bengaluru
+GSTIN: 29HOUIO5183V1ZA
+
+Sl | Item Code | Description                     | Qty | Unit | Rate          | Amount
+1  | VLV-118   | Gate Valve, Cast Iron, 6 inch   | 10  | nos  | Rs. 12,153.00 | Rs. 1,21,530.00
+2  | FTG-145   | Elbow 45 deg, SS304, 1.5 inch   | 50  | nos  | Rs. 391.00    | Rs. 19,550.00
+3  | GKT-112   | CAF Gasket, Class 150, 1/2 inch | 50  | nos  | Rs. 51.00     | Rs. 2,550.00
+4  | SEL-105   | Oil Seal, Nitrile, 22 mm        | 8   | nos  | Rs. 225.00    | Rs. 1,800.00
+
+Sub-total: Rs. 1,45,430.00
+GST extra as applicable. Delivery to our Peenya works. Payment as per agreed terms.
+
+Regards,
+Manjunath K
+Purchase Department
+Shree Ganesh Engineering Pvt Ltd

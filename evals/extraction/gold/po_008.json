@@ -1,0 +1,45 @@
+{
+  "email_id": "po_008",
+  "file": "corpus/po_emails/po_008.txt",
+  "difficulty": "medium",
+  "tags": [
+    "ambiguous_date"
+  ],
+  "expected": {
+    "purchase_orders": [
+      {
+        "schema_version": "po.v1",
+        "po_number": "SVT/PUR/2610",
+        "customer_name_as_written": "Sri Venkateswara Textiles Ltd",
+        "order_date": "2026-11-04",
+        "currency": "INR",
+        "stated_total": 18664.0,
+        "line_items": [
+          {
+            "sku_as_written": "VLV-170",
+            "description": "Check Valve (NRV), Cast Steel, 3/4 inch",
+            "quantity": 8.0,
+            "unit_price": 879.0
+          },
+          {
+            "sku_as_written": "GKT-130",
+            "description": "CAF Gasket, PN16, 6 inch",
+            "quantity": 16.0,
+            "unit_price": 727.0
+          }
+        ]
+      }
+    ]
+  },
+  "resolution": [
+    {
+      "customer_id": "C012",
+      "line_item_ids": [
+        "VLV-170",
+        "GKT-130"
+      ]
+    }
+  ],
+  "expected_issues": [],
+  "notes": "04/11/2026 is 4 Nov 2026 (Indian DD/MM), not 11 Apr 2026."
+}

@@ -1,0 +1,16 @@
+From: Purchase - Nandi Chemicals <purchase@nandichem.com>
+To: orders@kaverisupplies.in
+Date: Mon, 2 Nov 2026 12:00 +0530
+Subject: PO NCL/PR/26/3310
+
+Dear Sir,
+
+Please supply the following against PO NCL/PR/26/3310 dated 2 November 2026. Rates as per our annual rate contract.
+
+Item Code | Description | Qty
+VLV-180 | Globe Valve, Cast Iron, 3/4 inch | 10 nos
+SEL-150 | O-Ring Kit, SiC/SiC, 22 mm | 10 nos
+GKT-150 | Spiral Wound Gasket, Class 150, 6 inch | 40 nos
+
+Regards,
+Purchase Dept, Nandi Chemicals Ltd

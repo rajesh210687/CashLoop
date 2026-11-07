@@ -1,0 +1,15 @@
+From: Purchase - Hosur Auto <purchase@hosurauto.in>
+To: orders@kaverisupplies.in
+Date: Thu, 5 Nov 2026 10:30 +0530
+Subject: Amendment - PO HAC/PO/2026/1017
+
+Dear Sir,
+
+Ref our PO HAC/PO/2026/1017 dated 22-Oct-2026.
+
+Please cancel line 3 (FTG-190, 50 nos) and increase line 1 (VLV-160) from 10 nos to 14 nos. All other terms remain unchanged.
+
+Please send a revised order acknowledgement.
+
+Regards,
+Purchase, Hosur Auto Components Pvt Ltd
